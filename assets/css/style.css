@@ -870,6 +870,39 @@ footer {
 
   .c-info { align-items: center; }
   .btn-play { min-width: 120px; }
+  .hero:not(.hero-sub) .hero-casinos {
+    padding: 0.85rem;
+    border-radius: 18px;
+  }
+  .hero:not(.hero-sub) .hero-casinos h3 {
+    font-size: 0.72rem;
+    margin-bottom: 0.7rem;
+  }
+  .hero:not(.hero-sub) .hero-casinos .casinos-wrap { gap: 0.45rem; }
+  .hero:not(.hero-sub) .hero-casinos .casino-card {
+    grid-template-columns: auto 1fr 84px;
+    justify-items: stretch;
+    text-align: left;
+    gap: 0.45rem;
+    padding: 0.55rem 0.7rem;
+    border-radius: 12px;
+  }
+  .hero:not(.hero-sub) .hero-casinos .c-logo img {
+    height: 42px;
+    max-width: 84px;
+  }
+  .hero:not(.hero-sub) .hero-casinos .c-info { align-items: flex-start; }
+  .hero:not(.hero-sub) .hero-casinos .c-bonus {
+    font-size: 0.8rem;
+    line-height: 1.15;
+  }
+  .hero:not(.hero-sub) .hero-casinos .c-bonus-sub { font-size: 0.64rem; }
+  .hero:not(.hero-sub) .hero-casinos .btn-play {
+    width: 84px;
+    min-width: 0;
+    font-size: 0.64rem;
+    padding: 0.5rem 0.55rem;
+  }
   .facts-table td:first-child { width: 42%; }
   .cta-banner { flex-direction: column; align-items: flex-start; }
 }
